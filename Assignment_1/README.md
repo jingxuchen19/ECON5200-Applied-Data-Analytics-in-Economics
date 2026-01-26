@@ -41,13 +41,12 @@ Boston CPI was fetched from FRED, re-indexed to 2016=100, and compared with nati
 My analysis reveals a meaningful divergence between student-facing inflation and the official CPI benchmark, suggesting national averages can hide local and demographic-specific inflation burdens.
 
 ## Tools & Libraries
-Python (pandas, numpy, matplotlib)
 
-FRED API via fredapi
-
-Index normalization + weighted index construction (Laspeyres-style approach)
+- Python (`pandas`, `numpy`, `matplotlib`)
+- FRED API via `fredapi`
+- Index normalization + weighted index construction (Laspeyres-style approach)
 
 ## Files
-Assignment_1.ipynb — full code and charts
 
-README.md — project narrative for portfolio presentation
+- `Assignment_1.ipynb` — full code and charts  
+- `README.md` — project narrative for portfolio presentation
