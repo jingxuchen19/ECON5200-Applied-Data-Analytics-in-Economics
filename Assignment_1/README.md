@@ -29,17 +29,23 @@ Boston CPI was fetched from FRED, re-indexed to 2016=100, and compared with nati
 
 ## Key Findings
 Students experience inflation differently because tuition and housing dominate budgets.
+
 Once CPI series are properly normalized, rent and food trends rise more sharply, changing the story compared to the national CPI.
+
 The Student SPI diverges from official CPI, revealing that average CPI may understate student cost pressure.
+
 The Boston CPI comparison shows how regional inflation can further amplify the gap between national indicators and lived experiences.
 
 My analysis reveals a meaningful divergence between student-facing inflation and the official CPI benchmark, suggesting national averages can hide local and demographic-specific inflation burdens.
 
 ## Tools & Libraries
 Python (pandas, numpy, matplotlib)
+
 FRED API via fredapi
+
 Index normalization + weighted index construction (Laspeyres-style approach)
 
 ## Files
 Assignment_1.ipynb — full code and charts
+
 README.md — project narrative for portfolio presentation
