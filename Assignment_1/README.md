@@ -10,12 +10,12 @@ The national CPI is a weighted index representing a broad population. For studen
 This project asks: Does the official CPI reflect the lived inflation experience of students in Boston?
 
 ## Methodology
-1.	Student basket benchmark: Constructed a simplified student consumption basket (tuition, rent, food, Spotify) and calculated inflation from 2016 to 2024. 
-2.	Official data pipeline: Pulled CPI time series from the FRED API (fredapi) using CPI proxies for student-relevant categories (tuition, rent, streaming, food away from home). 
-3.	Normalization (Re-indexing): Since CPI sub-series have different base years, all series were normalized to a common base (Jan 2016 = 100) using:
-Value_Index=(Value_Current/Value_at_Start_Date)×100 
-4.	Student SPI construction (Laspeyres-style weighting): Built a weighted student inflation index (Student SPI) using student-relevant weights (Tuition/Rent dominate). 
-5.	Reality check (Boston vs USA vs Student): Extended analysis by pulling the Boston-Cambridge-Newton CPI series and plotting three normalized indices on one chart. 
+1. **Student basket benchmark:** Constructed a simplified student consumption basket (tuition, rent, food, Spotify) and tracked inflation from 2016 to 2024.  
+2. **Official data pipeline:** Pulled CPI time series from the FRED API (`fredapi`) using student-relevant category proxies (tuition, rent, streaming, food away from home).  
+3. **Normalization (Re-indexing):** Since CPI sub-series use different base years, all series were normalized to a common baseline (**Jan 2016 = 100**) using:  
+   `Value_Index = (Value_Current / Value_at_Start_Date) * 100`  
+4. **Student SPI construction (Laspeyres weighting):** Built a weighted student inflation index (**Student SPI**) using student-relevant weights (tuition/rent dominate).  
+5. **Reality check (Boston vs USA vs Student):** Fetched the Boston-Cambridge-Newton CPI series, re-indexed it to 2016=100, and compared it against national CPI and Student SPI. 
 
 ## Visual Results
 # 1) Normalized CPI Components (2016=100)
