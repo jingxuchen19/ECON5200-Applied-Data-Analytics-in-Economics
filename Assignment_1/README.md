@@ -48,5 +48,5 @@ My analysis reveals a meaningful divergence between student-facing inflation and
 
 ## Files
 
-- `Assignment_1.ipynb` — full code and charts  
+- `Econ_5200_Assignment_1.ipynb` — full code and charts  
 - `README.md` — project narrative for portfolio presentation
