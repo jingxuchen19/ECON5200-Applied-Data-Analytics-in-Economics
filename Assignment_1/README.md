@@ -15,7 +15,7 @@ This project asks: Does the official CPI reflect the lived inflation experience 
 3. **Normalization (Re-indexing):** Since CPI sub-series use different base years, all series were normalized to a common baseline (**Jan 2016 = 100**) using:  
    `Value_Index = (Value_Current / Value_at_Start_Date) * 100`  
 4. **Student SPI construction (Laspeyres weighting):** Built a weighted student inflation index (**Student SPI**) using student-relevant weights (tuition/rent dominate).  
-5. **Reality check (Boston vs USA vs Student):** Fetched the Boston-Cambridge-Newton CPI series, re-indexed it to 2016=100, and compared it against national CPI and Student SPI. 
+5. **Reality check (Boston vs USA vs Student):** Extended analysis by pulling the Boston-Cambridge-Newton CPI series and plotting three normalized indices on one chart.
 
 ## Visual Results
 # 1) Normalized CPI Components (2016=100)
