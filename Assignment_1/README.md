@@ -1,18 +1,3 @@
-# The Cost of Living Crisis: A Data-Driven Analysis
-
-## The Problem
-The official CPI is a national average, but students experience inflation differently because their spending is concentrated in a few categories (e.g., tuition and rent). As a result, the “average” CPI may hide the true cost-of-living pressure faced by students.
-
-## Methodology
-Using Python and the FRED API (`fredapi`), I collected CPI time series for tuition, rent, streaming services (as a proxy for Spotify), and food away from home (as a proxy for burritos), along with the overall CPI benchmark. Because CPI series have different base years, I re-indexed each series to **2016 = 100** (normalization) to make meaningful comparisons. This approach aligns with index theory (Laspeyres-style weighting for a fixed consumption basket).
-
-I then created a custom **Student SPI (Student Price Index)** as a weighted sum of category-specific CPIs to better reflect student budget priorities.
-
-## Key Findings
-My analysis shows a clear divergence between student inflation and national inflation. In the “Student SPI vs Official CPI” chart, the shaded area highlights an **inflation gap**, indicating periods where student costs rise faster/slower than the national CPI.
-
-Finally, I performed a “reality check” by adding the **Boston-Cambridge-Newton CPI** series (normalized to 2016=100) and plotting three lines together: **National CPI vs Boston CPI vs Student SPI**. This comparison suggests that local inflation dynamics can further widen the gap between national averages and lived student experience.
- 
 The Cost of Living Crisis: A Data-Driven Analysis
 ECON 5200 — Assignment 1 | Student Price Index (SPI)
 Overview
@@ -55,3 +40,4 @@ Tools & Libraries
 Files
 •	Assignment_1.ipynb — full code and charts
 •	README.md — project narrative for portfolio presentation
+<img width="415" height="686" alt="image" src="https://github.com/user-attachments/assets/8dfc94e8-3f78-4973-97aa-657be673913f" />
