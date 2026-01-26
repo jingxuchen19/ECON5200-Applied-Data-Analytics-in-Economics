@@ -6,6 +6,7 @@ Official CPI is designed to reflect the spending patterns of the average U.S. co
 
 ## The Problem
 The national CPI is a weighted index representing a broad population. For students, tuition and housing take up a disproportionately large share of spending, meaning the official CPI may understate real student inflation.
+
 This project asks: Does the official CPI reflect the lived inflation experience of students in Boston?
 
 ## Methodology
@@ -27,17 +28,18 @@ A raw chart without normalization (tuition vs streaming) illustrates why compari
 Boston CPI was fetched from FRED, re-indexed to 2016=100, and compared with national CPI and the Student SPI to evaluate whether local inflation differs from national averages. 
 
 ## Key Findings
-•	Students experience inflation differently because tuition and housing dominate budgets.
-•	Once CPI series are properly normalized, rent and food trends rise more sharply, changing the story compared to the national CPI.
-•	The Student SPI diverges from official CPI, revealing that average CPI may understate student cost pressure.
-•	The Boston CPI comparison shows how regional inflation can further amplify the gap between national indicators and lived experiences.
+Students experience inflation differently because tuition and housing dominate budgets.
+Once CPI series are properly normalized, rent and food trends rise more sharply, changing the story compared to the national CPI.
+The Student SPI diverges from official CPI, revealing that average CPI may understate student cost pressure.
+The Boston CPI comparison shows how regional inflation can further amplify the gap between national indicators and lived experiences.
+
 My analysis reveals a meaningful divergence between student-facing inflation and the official CPI benchmark, suggesting national averages can hide local and demographic-specific inflation burdens.
 
 ## Tools & Libraries
-•	Python (pandas, numpy, matplotlib)
-•	FRED API via fredapi
-•	Index normalization + weighted index construction (Laspeyres-style approach)
+Python (pandas, numpy, matplotlib)
+FRED API via fredapi
+Index normalization + weighted index construction (Laspeyres-style approach)
 
 ## Files
-•	Assignment_1.ipynb — full code and charts
-•	README.md — project narrative for portfolio presentation
+Assignment_1.ipynb — full code and charts
+README.md — project narrative for portfolio presentation
