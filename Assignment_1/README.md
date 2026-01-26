@@ -18,23 +18,25 @@ This project asks: Does the official CPI reflect the lived inflation experience 
 5. **Reality check (Boston vs USA vs Student):** Extended analysis by pulling the Boston-Cambridge-Newton CPI series and plotting three normalized indices on one chart.
 
 ## Visual Results
-# 1) Normalized CPI Components (2016=100)
-Tracks sector-specific inflation trends relevant to students (tuition, rent, streaming, food away from home) compared to the official CPI benchmark. 
-# 2) Student SPI vs Official CPI (“Inflation Gap”)
-A weighted Student SPI was compared against the official CPI, and the gap between them was shaded using plt.fill_between to highlight divergence over time. 
-# 3) The Scale Fallacy (“Bad Chart”)
-A raw chart without normalization (tuition vs streaming) illustrates why comparing series with different base years is misleading—tuition appears “huge” simply due to scale differences. 
-# 4) Boston vs USA vs You
-Boston CPI was fetched from FRED, re-indexed to 2016=100, and compared with national CPI and the Student SPI to evaluate whether local inflation differs from national averages. 
+
+### 1) Normalized CPI Components (2016=100)
+Tracks sector-specific inflation trends relevant to students (tuition, rent, streaming, food away from home) compared to the official CPI benchmark.
+
+### 2) Student SPI vs Official CPI (“Inflation Gap”)
+A weighted Student SPI was compared against the official CPI, and the gap between them was shaded using `plt.fill_between` to highlight divergence over time.
+
+### 3) The Scale Fallacy (“Bad Chart”)
+A raw chart without normalization (tuition vs streaming) illustrates why comparing series with different base years is misleading—tuition appears “huge” simply due to scale differences.
+
+### 4) Boston vs USA vs You
+Boston CPI was fetched from FRED, re-indexed to 2016=100, and compared with national CPI and the Student SPI to evaluate whether local inflation differs from national averages.
 
 ## Key Findings
-Students experience inflation differently because tuition and housing dominate budgets.
 
-Once CPI series are properly normalized, rent and food trends rise more sharply, changing the story compared to the national CPI.
-
-The Student SPI diverges from official CPI, revealing that average CPI may understate student cost pressure.
-
-The Boston CPI comparison shows how regional inflation can further amplify the gap between national indicators and lived experiences.
+- Students experience inflation differently because tuition and housing dominate budgets.
+- Once CPI series are properly normalized, rent and food trends rise more sharply, changing the story compared to the national CPI.
+- The Student SPI diverges from official CPI, revealing that average CPI may understate student cost pressure.
+- The Boston CPI comparison shows how regional inflation can further amplify the gap between national indicators and lived experiences.
 
 My analysis reveals a meaningful divergence between student-facing inflation and the official CPI benchmark, suggesting national averages can hide local and demographic-specific inflation burdens.
 
