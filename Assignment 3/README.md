@@ -1,7 +1,7 @@
 # Assignment 3: The Causal Architecture
 
 ## Course
-ECON 5200 — Statistical & Machine Learning for Economics (Spring 2026)
+ECON 5200 — Applied Data Analytics in Econ
 
 ## Overview
 This project explores bootstrapping, permutation testing, and causal inference techniques applied to operational problems at a fictional logistics company, SwiftCart Logistics. The goal is to move beyond simple correlation and isolate true causal effects using non-parametric and matching-based methods.
